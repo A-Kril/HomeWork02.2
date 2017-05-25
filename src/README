@@ -8,7 +8,9 @@
 1-й элемент удаляется, а каждый следующий смещается на один элемент влево.
 ==========================================================================
 This task is implemented in three classes:
-In CollectionQueue <E> the functional is implemented: printMenu () makes a selection of the size of the collection, there is also a default size, notSize () checking for correctness of input;
-The queue is implemented addObject (): each new element is added to the end, after the maximum the collection is "shifted" to the left.
+In CollectionQueue<E> the functional is implemented: printMenu() makes a selection of the size of the collection,
+there is also a default size, notSize() checking for correctness of input;
+The queue is implemented addObject(): each new element is added to the end,
+after the maximum the collection is "shifted" to the left.
 In class QueueTest we fill the collection, test it, and exit the program;
 Class QueueRun starts the program.
